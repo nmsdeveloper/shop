@@ -68,7 +68,7 @@
 /* THEME */
 .nav-theme {
   font-size: var(--h3-font-size);
-  color: var(--primary-color);
+  color: var(--primary-color-alt);
   cursor: pointer;
   transition: 0.3s ease-in-out;
 }
