@@ -131,7 +131,6 @@ body {
   color: var(--text-color);
   font-size: var(--normal-font-size);
   transition: 0.3s ease-in-out;
-  padding: 0 1rem;
 }
 h1,
 h2,
@@ -190,6 +189,7 @@ button {
 }
 .main {
   overflow: hidden;
+  padding: 0 1rem;
 }
 
 /* NAVBAR */
