@@ -153,13 +153,13 @@ window.addEventListener("scroll", () => scrollHeader("header"));
 // scrollUp("scroll-up");
 
 /* SHOW SCROLL UP */
-const showScrollUp = (scrollupId) => {
-  const scrollUp = document.getElementById(scrollupId);
+// const showScrollUp = (scrollupId) => {
+//   const scrollUp = document.getElementById(scrollupId);
 
-  if (window.scrollY >= 350) scrollUp.classList.add("show-scrollup");
-  else scrollUp.classList.remove("show-scrollup");
-};
-window.addEventListener("scroll", () => showScrollUp("scroll-up"));
+//   if (window.scrollY >= 350) scrollUp.classList.add("show-scrollup");
+//   else scrollUp.classList.remove("show-scrollup");
+// };
+// window.addEventListener("scroll", () => showScrollUp("scroll-up"));
 
 /* DARK @ LIGHT THEME */
 const themeButton = document.getElementById("nav-theme"),
@@ -190,16 +190,16 @@ themeButton.addEventListener("click", () => {
 });
 
 /* SCROLLREVEAL */
-const footerReveal = ScrollReveal({
-  origin: "left",
-  distance: "60px",
-  duration: 2000,
-  delay: 400,
-});
+// const footerReveal = ScrollReveal({
+//   origin: "left",
+//   distance: "60px",
+//   duration: 2000,
+//   delay: 400,
+// });
 
-footerReveal.reveal(`.footer-logo`);
-footerReveal.reveal(`.footer-title, .footer-description`, { delay: 500 });
-footerReveal.reveal(`.footer-links, .footer-social`, { delay: 600 });
-footerReveal.reveal(`.footer-link, .footer-social-link`, { delay: 700 });
-footerReveal.reveal(`.footer-copyright`, { delay: 800 });
+// footerReveal.reveal(`.footer-logo`);
+// footerReveal.reveal(`.footer-title, .footer-description`, { delay: 500 });
+// footerReveal.reveal(`.footer-links, .footer-social`, { delay: 600 });
+// footerReveal.reveal(`.footer-link, .footer-social-link`, { delay: 700 });
+// footerReveal.reveal(`.footer-copyright`, { delay: 800 });
 // };
