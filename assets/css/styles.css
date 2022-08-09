@@ -131,6 +131,7 @@ body {
   color: var(--text-color);
   font-size: var(--normal-font-size);
   transition: 0.3s ease-in-out;
+  padding: 0 1.5rem;
 }
 h1,
 h2,
