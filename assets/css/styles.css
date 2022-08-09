@@ -131,8 +131,6 @@ body {
   color: var(--text-color);
   font-size: var(--normal-font-size);
   transition: 0.3s ease-in-out;
-  padding-left: 2rem;
-  padding-left: 2rem;
 }
 h1,
 h2,
@@ -171,7 +169,7 @@ button {
   display: grid;
 }
 .section {
-  padding: 4.5rem 0 2rem;
+  padding: 4.5rem 1.5rem 2rem;
 }
 .section-title {
   font-size: var(--h2-font-size);
